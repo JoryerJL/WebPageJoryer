@@ -57,11 +57,14 @@
 
 .social-media{
     margin-top: auto;
-    display: flex;
+    display: inline-block;
+    text-align: center;
 }
 
+
 .logo-skills{
-    width: 40px;
+    display: block;
+    margin: 0 auto;
 }
 
 .about__title {
@@ -69,6 +72,7 @@
     font-weight: 700;
     font-style: normal;
     margin-top: 7px;
+    text-align: center;
 }
 .text-subtitle {
     font-family: "Agdasima", sans-serif;
@@ -77,4 +81,43 @@
     font-size: xx-large;
     margin-top: 50px;
     text-align: center
+}
+
+.container-sections {
+    margin: 40px;
+}
+
+.text-skills {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 300px;
+    margin-left: 80px;
+}
+
+#python {
+    width: 30px;
+}
+
+#java{
+    width: 30px;
+}
+
+#django {
+    width: 30px;
+}
+
+#html {
+    width: 30px;
+}
+
+#css3 {
+    width: 30px;
+}
+
+#aws {
+    width: 40px;
 }
