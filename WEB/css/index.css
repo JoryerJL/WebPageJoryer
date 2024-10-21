@@ -1,0 +1,80 @@
+.nav-link {
+    color: aliceblue;
+}
+
+.h1principal {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color:  white;
+}
+
+.encabezado {   
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.profilePhoto {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#information-pic{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.personal-info{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#hi {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 40px;
+}
+
+#btn-social-media {
+    display: inline-block;
+    margin: 20px auto;
+    font-size: x-large;
+    text-align: center;
+}
+
+.social-media{
+    margin-top: auto;
+    display: flex;
+}
+
+.logo-skills{
+    width: 40px;
+}
+
+.about__title {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 7px;
+}
+.text-subtitle {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    margin-top: 50px;
+    text-align: center
+}
