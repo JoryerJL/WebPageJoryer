@@ -57,8 +57,7 @@
 
 .social-media{
     margin-top: auto;
-    display: inline-block;
-    text-align: center;
+    display: flex;
 }
 
 
@@ -78,7 +77,7 @@
     font-family: "Agdasima", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: xx-large;
+    font-size: 50px;
     margin-top: 50px;
     text-align: center
 }
@@ -120,4 +119,60 @@
 
 #aws {
     width: 65px;
+}
+
+.communities {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#subtitle-communities {
+    padding-top: 50px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.img-aws{
+    width: 400px;
+    height: 400px;
+    -webkit-box-shadow: -8px 3px 31px 6px rgba(0,0,0,1);
+    -moz-box-shadow: -8px 3px 31px 6px rgba(0,0,0,1);
+    box-shadow: -8px 3px 31px 6px rgba(0,0,0,1);
+}
+
+.img-aws-div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.community{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 40px;
+    color: white;
+}
+
+.info-community{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.aws-community{
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    margin-top: 40px;
 }
